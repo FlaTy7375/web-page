@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Crypto Sever</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="header-nav">
+            <a class="header-logo">
+                <img class="logo-img" src="images/logo.svg" alt="Логотип сайта" width="237" height="237">            
+            </a>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link">Вход</a></li>
+                <li class="nav-item"><a class="nav-link">Регистрация</a></li>
+            </ul>
+        </nav>
+        <div class="header-container">
+            <h1 class="header-title">Купить/Продать <span class="header-title__decor">USDT</span>
+                Быстро и Выгодно</h1>
+            <p class="header-text">
+                Открытие USDT кошелька за 5 минут</p>
+            <p class="header-text">
+                Простой и понятный личный кабинет</p>
+            <p class="header-text">
+                Мгновенное пополнение</p>
+            <div class="link-container">
+                <a class="header-link">Открыть кошелек</a>
+                <a class="header-link">Отправить заявку</a>
+            </div>
+            <img class="header-img" src="images/header-img.svg" alt="Логотип шапки" width="504" height="504">
+        </div>
+    </header>
+    <main class="index-main">
+        <section class="advantages">
+            <h1 class="advantages-title">Преимущества использования 
+                crypto <span class="advantages-title__decor">SEVER</span></h1>
+            <ul class="advantages-list">
+                <li class="advantages-item">
+                    <div class="advantages-card">
+                        <img class="card-image" src="images/advantages1.svg" alt="Изображение преимущества" width="170" height="170">
+                        <h3 class="card-title">удобный личный кабинет</h3>
+                        <p class="card-text">Откройте личный кабинет и кошелек<br>
+                            и совершайте usdt переводы в любое<br>
+                            время в режиме онлайн</p>
+                    </div>
+                </li>
+                <li class="advantages-item">
+                    <div class="advantages-card">
+                        <img class="card-image" src="images/advantages2.svg" alt="Изображение преимущества" width="170" height="170">
+                        <h3 class="card-title">безопасные переводы</h3>
+                        <p class="card-text">Надежное хранение криптовалюты<br>
+                            на собственных серверах и безопасные<br> криптопереводы</p>
+                    </div>
+                </li>
+                <li class="advantages-item">
+                    <div class="advantages-card">
+                        <img class="card-image" src="images/advantages3.svg" alt="Изображение преимущества" width="170" height="170">
+                        <h3 class="card-title">Высокая скорость транзакций</h3>
+                        <p class="card-text">Средняя длительность исполнения<br> крипто-транзакции в обменнике<br> составляет 5 минут</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="form">
+            <form class="main-form" action="" method="post">
+                <select class="selector sell-select form-item" name="sell-select" id="sell-select">
+                    <option value="popular">Продаю (RUB/USDT)</option>
+                </select>
+                <select class="selector buy-select form-item" name="buy-select" id="buy-select">
+                    <option value="popular">Покупаю (RUB/USDT)</option>
+                </select>
+                <label title="Количество"><input class="form-item" required type="text" placeholder="Количество" name="number" id="number"></label>
+                <label title="Телефон"><input class="form-item" required type="text" placeholder="Телефон" name="phone" id="phone"></label>
+                <label title="Телеграм"><input class="form-item" type="text" placeholder="Телеграм" name="telegram" id="telegram"></label>
+                <button class="form-button" type="submit">Отправить заявку</button>
+            </form>
+            <div class="registration">
+                <h1 class="registration-title">отправить заявку на 
+                    покупку/продажу <span class="registration-title__decor">USDT</span></h1>
+                <p class="registration-text">Оставьте заявку на покупку/продажу/обмен USDT и менеджер<br>
+                    свяжется с вами для согласования перевода</p>
+                <p class="registration-text">Либо зарегистрируйтесь в личном кабинете и совершите<br>
+                    перевод USDT в режиме онлайн</p>
+                <a class="registration-link">регистрация</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

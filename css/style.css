@@ -1,0 +1,467 @@
+@charset "UTF-8";
+.main-header {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 143px;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 1120px;
+  height: 500px;
+  background: radial-gradient(100.14% 227.25% at 6.25% 13.75%, rgba(38, 169, 224, 0.8) 0%, rgba(38, 169, 224, 0.456) 14.63%, rgba(0, 0, 0, 0.384) 31.44%, rgba(0, 0, 0, 0.592) 69.73%, rgba(0, 0, 0, 0.8) 100%);
+  transform: rotate(0deg);
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+.main-header::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(38, 169, 224, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: -1;
+  top: 157px;
+  left: 848px;
+}
+
+.header-nav {
+  display: flex;
+  height: 198px;
+  padding-left: 87px;
+  padding-right: 121px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.header-logo {
+  position: relative;
+  width: 237px;
+  top: -62px;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 335px;
+  margin-top: 31px;
+}
+
+.nav-link {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav-item:first-child .nav-link {
+  width: 130px;
+  background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
+}
+
+.nav-item:first-child .nav-link:hover {
+  background: none;
+  border: 1px solid rgb(38, 169, 224);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.nav-item:nth-child(2) .nav-link {
+  width: 175px;
+  border: 1px solid rgb(38, 169, 224);
+}
+
+.nav-item:nth-child(2) .nav-link:hover {
+  width: 175px;
+  background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
+  border: none;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1002px;
+}
+
+.header-title {
+  margin: 0;
+  margin-bottom: 33px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  width: 650px;
+  height: 160px;
+  text-transform: uppercase;
+}
+
+.header-title__decor {
+  background: #26A9E0;
+  border: 5px solid #26A9E0;
+  border-top: none;
+  border-bottom: none;
+}
+
+.header-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.header-text:not(:nth-child(4)) {
+  margin-bottom: 13px;
+}
+
+.header-text:nth-child(4) {
+  margin-bottom: 66px;
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header-link {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 75px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.header-link:first-child {
+  background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
+}
+
+.header-link:first-child:hover {
+  background: none;
+  border: 2px solid rgb(38, 169, 224);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.header-link:nth-child(2) {
+  border: 2px solid rgb(38, 169, 224);
+  margin-left: 20px;
+}
+
+.header-link:nth-child(2):hover {
+  background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
+  border: none;
+  margin-left: 20px;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.header-img {
+  position: absolute;
+  top: -40px;
+  left: 629px;
+  transform: rotate(-13Deg);
+}
+
+.advantages {
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 136px;
+}
+
+.advantages::before {
+  content: "";
+  position: absolute;
+  width: 1440px;
+  height: 700px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(38, 169, 224, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: -1;
+}
+
+.advantages-title {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+
+.advantages-title__decor {
+  background: #26A9E0;
+  border: 5px solid #26A9E0;
+  border-top: none;
+  border-bottom: none;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.advantages-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 2px solid rgb(38, 169, 224);
+  border-radius: 30px;
+}
+
+.card-image {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 120px;
+  padding-top: 108px;
+  overflow: hidden;
+}
+
+.form::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  width: 840px;
+  height: 750px;
+  left: 600px;
+  top: 50px;
+  transform: rotate(35deg);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(38, 169, 224, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  padding-right: 87px;
+}
+
+.main-form::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 544px;
+  left: 720px;
+  background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
+}
+
+.form-item {
+  box-sizing: border-box;
+  width: 513px;
+  padding: 0 30px;
+  height: 60px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(38, 169, 224);
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.selector {
+  appearance: none;
+}
+
+.form-button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 75px;
+  background: rgb(38, 169, 224);
+  border-radius: 40px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background: none;
+  border: 2px solid rgb(38, 169, 224);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.registration {
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.registration-title {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-transform: uppercase;
+  width: 512px;
+}
+
+.registration-title__decor {
+  background: #26A9E0;
+  border: 5px solid #26A9E0;
+  border-top: none;
+  border-bottom: none;
+}
+
+.registration-text {
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.registration-text:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+.registration-link {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 75px;
+  margin-top: 65px;
+  border: 2px solid rgb(38, 169, 224);
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.registration-link:hover {
+  background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
+  border: none;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebasneueregular.woff2") format("woff2"), url("../fonts/bebasneueregular.woff") format("woff"), url("../fonts/bebasneueregular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebasneuebold.woff2") format("woff2"), url("../fonts/bebasneuebold.woff") format("woff"), url("../fonts/bebasneuebold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebasneuebook.woff2") format("woff2"), url("../fonts/bebasneuebook.woff") format("woff"), url("../fonts/bebasneuebook.ttf") format("truetype");
+  font-weight: 300; /* Например, для книжного начертания */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebasneuelight.woff2") format("woff2"), url("../fonts/bebasneuelight.woff") format("woff"), url("../fonts/bebasneuelight.ttf") format("truetype");
+  font-weight: 200; /* Например, для легкого начертания */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebasneuethin.woff2") format("woff2"), url("../fonts/bebasneuethin.woff") format("woff"), url("../fonts/bebasneuethin.ttf") format("truetype");
+  font-weight: 100; /* Например, для тонкого начертания */
+  font-style: normal;
+}
+body {
+  margin: 0;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+image {
+  display: block;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.index-main {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

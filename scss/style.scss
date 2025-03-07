@@ -1,0 +1,79 @@
+@import 'header';
+@import 'advantages';
+@import 'form';
+@import 'transaction';
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneueregular.woff2') format('woff2'),
+         url('../fonts/bebasneueregular.woff') format('woff'),
+         url('../fonts/bebasneueregular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneuebold.woff2') format('woff2'),
+         url('../fonts/bebasneuebold.woff') format('woff'),
+         url('../fonts/bebasneuebold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneuebook.woff2') format('woff2'),
+         url('../fonts/bebasneuebook.woff') format('woff'),
+         url('../fonts/bebasneuebook.ttf') format('truetype');
+    font-weight: 300; /* Например, для книжного начертания */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneuelight.woff2') format('woff2'),
+         url('../fonts/bebasneuelight.woff') format('woff'),
+         url('../fonts/bebasneuelight.ttf') format('truetype');
+    font-weight: 200; /* Например, для легкого начертания */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneuethin.woff2') format('woff2'),
+         url('../fonts/bebasneuethin.woff') format('woff'),
+         url('../fonts/bebasneuethin.ttf') format('truetype');
+    font-weight: 100; /* Например, для тонкого начертания */
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+image {
+    display: block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.index-main {
+    width: 1440px;
+    margin: 0 auto;
+}
