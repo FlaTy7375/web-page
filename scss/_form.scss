@@ -32,7 +32,6 @@
     height: 544px;
     left: 720px;
     background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
-    
 }
 
 .form-item {
@@ -64,6 +63,7 @@ input::-webkit-input-placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 5px;
     width: 300px;
     height: 75px;
     background: rgba(38, 169, 224, 1);
@@ -71,9 +71,9 @@ input::-webkit-input-placeholder {
     border: none;
     color: white;
     text-transform: uppercase;
-    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-family: 'Bebas Neue';
     font-weight: 400;
-    font-size: 23px;
+    font-size: 30px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -87,7 +87,6 @@ input::-webkit-input-placeholder {
 }
 
 .registration {
-    
     margin-left: auto;
     overflow: hidden;
 }
@@ -95,9 +94,11 @@ input::-webkit-input-placeholder {
 .registration-title {
     margin-top: 60px;
     margin-bottom: 50px;
-    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-family: 'Bebas Neue';
     font-weight: 400;
     font-size: 50px;
+    letter-spacing: 3%;
+    line-height: 60px;
     text-transform: uppercase;
     width: 512px;
 }
@@ -124,15 +125,16 @@ input::-webkit-input-placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 5px;
     width: 300px;
     height: 75px;
     margin-top: 65px;
     border: 2px solid rgba(38, 169, 224, 1);
     border-radius: 40px;
     text-transform: uppercase;
-    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-family: 'Bebas Neue';
     font-weight: 400;
-    font-size: 23px;
+    font-size: 30px;
     cursor: pointer;
 }
 
